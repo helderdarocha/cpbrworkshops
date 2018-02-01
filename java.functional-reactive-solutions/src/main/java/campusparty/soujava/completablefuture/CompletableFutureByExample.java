@@ -9,12 +9,11 @@ public class CompletableFutureByExample {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		CompletableFuture<String> future = new CompletableFuture<>();
 
-		// complete on timeout
-		// use runAsync
-		// use supplyAsync
-		// use thenRun or thenAccept
-		// use executors
-		// use thenApply
+		future.completeOnTimeout("Finished task!", 1, TimeUnit.SECONDS);
+
+		System.out.println("Waiting for task to complete...");
+		String result = future.get();
+		System.out.println("Done. Result is " + result);
 		
 	}
 
