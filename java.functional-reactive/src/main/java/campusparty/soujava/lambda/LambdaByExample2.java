@@ -1,4 +1,4 @@
-package campusparty.soujava;
+package campusparty.soujava.lambda;
 
 import campusparty.soujava.function.Comando;
 import campusparty.soujava.function.Processador;

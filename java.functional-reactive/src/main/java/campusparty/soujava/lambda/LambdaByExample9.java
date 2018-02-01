@@ -1,20 +1,19 @@
-package campusparty.soujava;
+package campusparty.soujava.lambda;
 
-import campusparty.soujava.function.Comando;
-import campusparty.soujava.function.Processador;
+import java.util.function.Function;
 
-public class LambdaByExample8 {
+public class LambdaByExample9 {
 	
-	public static int medir(Processador<String,Integer> processador, String texto) {
-		return processador.processar(texto);
+	public static int medir(Function<String,Integer> processador, String texto) {
+		return processador.apply(texto);
 	}
 	
-	public static String transformar(Processador<String,String> processador, String texto) {
-		return processador.processar(texto);
+	public static String transformar(Function<String,String> processador, String texto) {
+		return processador.apply(texto);
 	}
 	
-	public static void fazer(Comando comando) {
-		comando.executar();
+	public static void fazer(Runnable comando) {
+		comando.run();
 	}
 
 	public static void main(String[] args) {

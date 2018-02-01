@@ -1,4 +1,4 @@
-package campusparty.soujava;
+package campusparty.soujava.lambda;
 
 import java.util.function.Function;
 
