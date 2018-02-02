@@ -1,13 +1,13 @@
 # cpbrworkshops
 Campus Party Brasil: Code for livecoding workshops
 
-#java.lambda.streams.completablefuture.*
+# java.lambda.streams.completablefuture.*
 Programação passo-a-passo demonstrando o uso de:
 - expressões lambda
 - API de Streams
 - API de CompletableFuture
 
-.exercises
+## .exercises
   Dados para exercícios com streams usados no live coding
-.solution
+## .solution
   Soluçes comentadas
